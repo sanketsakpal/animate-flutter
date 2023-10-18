@@ -1,8 +1,11 @@
+import 'package:animate_flutter/custom_painter_example/bouncing_ball_animation.dart';
+import 'package:animate_flutter/explicit_animation_example/dribble_ball.dart';
 import 'package:animate_flutter/explicit_animation_example/loading_animation.dart';
 import 'package:animate_flutter/explicit_animation_example/login_animation.dart';
 import 'package:animate_flutter/implicit_animation_examples/color_pallete_animation.dart';
 import 'package:animate_flutter/implicit_animation_examples/shoping_cart_animation.dart';
 import 'package:animate_flutter/implicit_animation_examples/tween_animation.dart';
+import 'package:animate_flutter/page_route_builder.dart/splash_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const RadialProgressAnimation(color: Colors.red, progress: 0.6),
+      home: const LoadingBall(),
     );
   }
 }
