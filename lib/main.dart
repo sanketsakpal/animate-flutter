@@ -1,5 +1,3 @@
-import 'package:animate_flutter/custom_painter_example/bouncing_ball_animation.dart';
-import 'package:animate_flutter/explicit_animation_example/dribble_ball.dart';
 import 'package:animate_flutter/explicit_animation_example/loading_animation.dart';
 import 'package:animate_flutter/explicit_animation_example/login_animation.dart';
 import 'package:animate_flutter/implicit_animation_examples/color_pallete_animation.dart';
@@ -39,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoadingBall(),
+      home: const SplashAnimation(),
     );
   }
 }
