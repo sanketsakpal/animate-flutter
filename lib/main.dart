@@ -1,9 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:flutter/material.dart';
-
-import 'package:animate_flutter/explicit_animation_example/chained_animation.dart';
+import 'package:animate_flutter/custom_painter_example/polygon.dart';
 import 'package:animate_flutter/explicit_animation_example/three_d_animation.dart';
-import 'package:animate_flutter/page_route_builder.dart/hero_animation.dart';
+import 'package:animate_flutter/implicit_animation_examples/tween_animation_builder.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HeroAnimation(),
+      home: const PolyGonExample(),
     );
   }
 }
@@ -72,4 +71,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
