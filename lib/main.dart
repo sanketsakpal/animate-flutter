@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:animate_flutter/custom_painter_example/polygon.dart';
-import 'package:animate_flutter/explicit_animation_example/three_d_animation.dart';
-import 'package:animate_flutter/implicit_animation_examples/tween_animation_builder.dart';
+
+import 'package:animate_flutter/explicit_animation_example/animated_prompt.dart';
+import 'package:animate_flutter/explicit_animation_example/drawer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PolyGonExample(),
+      home: const AnimatedPrompt(),
     );
   }
 }
